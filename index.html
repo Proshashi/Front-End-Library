@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library | Front End</title>
+    <link rel="stylesheet" href="style/components_style.css">
+    <link rel="stylesheet" href="style/temp.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Nanum+Brush+Script|Roboto|Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="nav_title"><a href="#start">Front End Library</a></div>
+        <div class="templates_link">
+            <a href="#normal_but">Normal buttons</a>
+            <a href="#animated_but">Animated Buttons</a>
+            <a href="#loaders">Loaders</a>
+            <a href="#login">Login Form</a>
+            <a href="#cards">Card</a>
+        </div>
+        <a class="github" href="https://github.com/Proshashi/Front-End-Library" title="Download Files" target="_blank">
+            <img src="images/github_logo.svg" alt="GitHub Link" height="40px" width="40px">
+        </a>
+    </div>
+    <div class="reference" id="start"></div>
+    <div class="help">
+        <h2>How to use the library?</h2>
+        <em>Please click ther github logo to go to the respective library repository to find the initialization code.
+        </em>
+    </div>
+    <div class="copied_toast">Copied Sucessfully</div>
+
+    <div class="template-group">
+        <!-- Simple buttons -->
+        <div class="reference" id="normal_but"></div>
+        <h1 class="heading">Simple Buttons</h1>
+        <!-- Normal button -->
+        <span>
+            <but class="btn">Normal Button</but>
+        </span>
+
+        <!-- Hover Button -->
+        <span>
+            <but class="btn-hover">Hover Button</but>
+        </span>
+
+        <!-- Active Button -->
+        <span>
+            <but class="btn-active">Active Button</but>
+        </span>
+
+        <!-- Border Button -->
+        <span>
+            <but class="btn-border">Border Button</but>
+        </span>
+
+        <!-- Disabled Button -->
+        <span>
+            <but class="btn-disabled">Disabled Button</but>
+        </span>
+        <br>
+        <br>
+        <em>Click the respective buttons to copy code.</em>
+
+        <hr>
+
+        <!-- Animated Buttons -->
+        <div class="reference" id="animated_but"></div>
+        <h1 class="heading">Animated Buttons</h1>
+
+        <!-- Animated button 1-->
+        <span>
+            <but class="btn-animated1">Animated Button 1</but>
+        </span>
+
+        <!-- Animated button 2-->
+        <span>
+            <but class="btn-animated2">Animated Button 2</but>
+        </span>
+
+        <!-- Animated button 3-->
+        <span>
+            <but class="btn-animated3">Animated Button 3</but>
+        </span>
+
+        <br>
+        <br>
+        <em>Click the respective buttons to copy code.</em>
+
+        <hr>
+
+        <!-- Loaders -->
+        <div class="reference" id="loaders"></div>
+        <h1 class="heading">Loaders</h1>
+
+        <!-- Circular Loader -->
+        <span title="Circular Loader">
+            <loader class="circular_loader"></loader>
+        </span>
+
+        <!-- 3 box loader -->
+        <span title="Box Loader">
+            <loader class="box_loader">
+                <bars class="box boxA"></bars>
+                <bars class="box boxB"></bars>
+                <bars class="box boxC"></bars>
+            </loader>
+        </span>
+
+        <!-- Plane Y Loader -->
+        <span title="Plane Y Loader">
+            <loader class="planeY_loader"></loader>
+        </span>
+
+        <!-- Plane X Loader -->
+        <span title="Plane X Loader">
+            <loader class="planeX_loader"></loader>
+        </span>
+
+        <br>
+        <br>
+        <em>Click the respective loaders to copy code.</em>
+
+        <hr>
+
+        <!-- LogIn Inputs -->
+        <div class="reference" id="login"></div>
+        <h1 class="heading">Log In window</h1>
+        <but class="btn-hover" id="login_copy_button">Copy code</but>
+
+        <div class="login">
+            <div class="template_input">
+                <div class="login_heading">
+                    <h2>Log In</h2>
+                </div>
+                <form action="#">
+                    <label for="first" class="fa fa-user"></label>
+                    <input type="email" placeholder="E-mail" id="first" required>
+                    <br>
+                    <label for="second" class="fa fa-lock"></label>
+                    <input type="password" placeholder="Password" id="second" required>
+                    <br>
+                    <button class="btn-active" type="submit">Log In</but>
+                </form>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Card -->
+        <div class="reference" id="cards"></div>
+        <h1 class="heading">Cards</h1>
+        <but class="btn-hover" id="card_copy_button">Copy code</but>
+
+        <div class="template_card">
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdoeYDe_IhfHaY0N31-7-L7AU4YFKH4-2NICUORQ2nQVhSv5LY"
+                    alt="" class="card_image">
+                <div class="card_text">
+                    <div class="card_name">Nick Johnson</div>
+                    <div class="card_info">Student and teacher</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Copyright &copy; 12 Tech, Kalika Manavgyan College
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
